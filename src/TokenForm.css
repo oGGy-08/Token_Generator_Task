@@ -1,0 +1,121 @@
+.token-form-container {
+    margin-left: 400px;
+}
+
+.token-form-title {
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+.token-input {
+    margin-bottom: 15px;
+    margin-left: -150px;
+    display: flex;
+    align-items: center;
+}
+
+.token-input label {
+    margin-right: 20px;
+    flex: 0 0 250px;
+    text-align: right;
+}
+
+.token-input-field1,
+.token-input-field2,
+.token-input-field3,
+.token-input-field4,
+.token-input-field5,
+.token-input-field6 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.token-input-field1 {
+    width: 33%;
+}
+
+.token-input-field2 {
+    width: 27%;
+}
+
+.token-input-field3 {
+    width: 30%;
+}
+
+.token-input-field4 {
+    width: 33%;
+}
+
+.token-input-field5 {
+    width: 27%;
+}
+
+.token-input-field6 {
+    width: 30%;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.generate-button,
+.clear-button {
+    padding: 10px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.generate-button {
+    background-color: rgb(81, 79, 79);
+    color: white;
+    border: 1px solid black;
+}
+
+.clear-button {
+    background-color: rgb(81, 79, 79);
+    color: white;
+    border: 1px solid black;
+    margin-right: 800px;
+}
+
+.tokens-container {
+    margin-top: 16px;
+}
+
+.token-row {
+    margin-bottom: 8px;
+}
+
+.generated-tokens {
+    margin-left: 120px;
+}
+
+.token-paper {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    background-color: transparent;
+}
+
+.blue-token {
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 5px 8px;
+    margin: 4px;
+    border: 1px solid darkblue;
+}
+
+.red-token {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    padding: 5px 8px;
+    margin: 4px;
+    border: 1px solid darkred;
+}
